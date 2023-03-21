@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.top-nav>h1 {
+    margin-left: 3rem;
+}
+
+.top-nav>button {
+    margin-right: 3rem;
+}
+
+.mode-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.main-heading {
+    color: hsl(200, 15%, 8%);
+}
+
+.mode-switcher {
+    background: 0;
+    width: 7.4%;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: Nunito Sans;
+}
+
+.container {
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.region-select {
+    font-size: 16px;
+    padding: 0.7rem 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+label[for='region-select'] {
+    cursor: pointer;
+}
+
+.inp-container {
+    width: 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.7rem 0px;
+    background-color: white;
+}
+
+.inp-container button {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.header input {
+    font-size: 14px;
+    border: 0;
+    width: 80%;
+    padding: 0.7rem 0px;
+
+}
+
+.countries {
+    width: 90%;
+    min-height: 100vh;
+    padding: 1.5rem 0;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+
+    gap: 2rem;
+
+}
+
+/* for each country container */
+.each-country-container {
+    width: 22%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.flag-img {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+
+}
+
+.description {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.inner-description {
+    width: 100%;
+    height: 60%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-text {
+    color: hsl(200, 15%, 8%);
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.country-name {
+    font-size: 20px;
+    margin: 1.5rem;
+    align-items: flex-start;
+    color: hsl(200, 15%, 8%);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* dark mode */
+
+.dark-background {
+    background-color: hsl(207, 26%, 17%);
+}
+
+.dark-nav {
+    background-color: hsl(209, 23%, 22%);
+}
+
+.for-dark-text {
+    color: white;
+}
+
+.dark-input {
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+
+.warning {
+    font-size: 3.5rem;
+    color: hsl(200, 15%, 8%);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* specific explanation */
+
+.cont {
+    width: 90%;
+    min-height: 80vh;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.flag-expanded {
+    width: 45%;
+    height: 50%;
+
+}
+
+.explanation {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.detail-explanation {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.border-countries {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+}
+
+.light {
+    color: white;
+
+}
